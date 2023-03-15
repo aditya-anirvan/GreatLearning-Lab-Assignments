@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Gmail.css">
+
+    <title>Gmail Account Creation</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Create Gmail Account</h1>
+        
+        <form id="mail" method="get" action="mail.php"> 
+            <input type="text" name="Name" id="Name" placeholder="Full Name" required>
+            <br><br>
+            <input type="number" name="Phone" id="Phone" placeholder="Contact Number" required>
+            <br><br>
+            <input type="email" name="email" id="email" placeholder="Enter mail id" required>
+            <br><br>
+            <input type="button" name="button" id="button" value="Reset" onclick="resetFunc()">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="button" name="button" id="button" value="Submit">
+        </form>
+    </div>
+    <script>
+        function resetFunc() {
+            document.getElementById("mail").reset();
+        }
+    </script>
+</body>
+
+</html>

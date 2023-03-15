@@ -1,0 +1,58 @@
+body
+{
+
+    background-image: url("GmailBGPic.jpg");
+    background-size: cover;
+    margin: auto;
+    width: 40%;
+    padding-top: 100px;
+}
+.header{
+    text-align: center;
+    padding: 100px;
+    border: 2px solid springgreen;
+}
+#Name{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#Phone{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+#email{
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+
+}
+#button{
+    width: 50px;
+    height: 30px;
+    border: none;
+    background-color: blueviolet;
+    border-radius: 5px;
+    padding: 0cm;
+    color: white;
+}
+#Name:hover{
+    background-color: steelblue;
+    opacity: 0.35;
+}
+#Phone:hover{
+    background-color: steelblue;
+    opacity: 0.35;
+}
+#email:hover{
+    background-color: steelblue;
+    opacity: 0.35;
+}
